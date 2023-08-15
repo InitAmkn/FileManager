@@ -1,5 +1,7 @@
-public class InvalidOperation extends Exception {
-   public InvalidOperation(String message){
+import java.io.IOException;
+
+public class FileNotFoundException extends IOException {
+   public FileNotFoundException(String message){
         super(message);
     }
 }
